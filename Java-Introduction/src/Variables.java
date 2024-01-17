@@ -3,9 +3,15 @@ public class Variables {
 
         String name = "Fernando";
         int age = 35;
-        float height = 1.71;
-        char gender = "M";
+        double height = 1.71;
+        char gender = 'M';
         boolean alive = true;
+
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(gender);
+        System.out.println(alive);
 
     }
 }
