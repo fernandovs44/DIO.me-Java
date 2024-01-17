@@ -1,5 +1,5 @@
 public class Variables {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         String name = "Fernando";
         int age = 35;
