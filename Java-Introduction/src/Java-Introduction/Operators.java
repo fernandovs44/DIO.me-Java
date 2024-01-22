@@ -2,11 +2,11 @@ public class Operators {
 
   public static void main(String[] args) {
 
-    int addition = 10 + 10;
-    int subtraction = 10 - 10;
-    int multiplication = 10 * 10;
-    int division = 10 / 10;
-    int modulus = 10 % 10;
+    int addition = 10 + 5;
+    int subtraction = 10 - 5;
+    int multiplication = 10 * 5;
+    int division = 10 / 5;
+    int modulus = 10 % 5;
     int increment = ++addition;
     int decrement = --subtraction;
 
