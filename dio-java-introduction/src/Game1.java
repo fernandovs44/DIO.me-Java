@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GameOne {
+public class Game1 {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
 		int N = leitor.nextInt();
