@@ -3,12 +3,18 @@ import java.util.concurrent.ThreadLocalRandom;
 public class SelectiveProcess {
 
   public static void main(String[] args) {
-    String[] candidatos = { "FELIPE", "MÁRCIA", "JULIA", "PAULO", "AUGUSTO", "MÔNICA", "FABRÍCIO", "MIRELA", "DANIELA",
+    String[] candidates = { "FELIPE", "MÁRCIA", "JULIA", "PAULO", "AUGUSTO", "MÔNICA", "FABRÍCIO", "MIRELA", "DANIELA",
         "JORGE" };
+
+    for (String i : candidates) {
+      System.out.println(i);
+      SelectCandidateSalary(2000.0, pretendSalary());
+    }
+    ;
 
   }
 
-  static double valorPretendido() {
+  static double pretendSalary() {
     return ThreadLocalRandom.current().nextDouble(1800, 2200);
   }
 
