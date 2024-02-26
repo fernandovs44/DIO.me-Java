@@ -24,7 +24,7 @@ public class SelectiveProcess {
     } else if (baseSalary == pretendSalary) {
       System.out.println("Call candidate with a counter proposal");
     } else {
-      System.out.println("Waiting for results from other candidates");
+      System.out.println("Waiting for results from other candidateS");
     }
 
   }
